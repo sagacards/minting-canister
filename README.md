@@ -41,3 +41,7 @@ Using the Dfinity invoice canister will create an additional (potentially cross 
     - Set mode: static | presale | public sale
     - Get config: read all config data in one request
 - The minting canister may only hold mint authority over a single NFT canister at any given time, but it may be reconfigured arbitrarily
+
+## Bounty
+
+The minting canister shall receive 10% of proceeds from minting sales of the Legends NFTs, subject to some change. This will be split amongst contributors to the minting canister.

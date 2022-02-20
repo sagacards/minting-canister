@@ -41,6 +41,9 @@ Using the Dfinity invoice canister will create an additional (potentially cross 
     - Set mode: static | presale | public sale
     - Get config: read all config data in one request
 - The minting canister may only hold mint authority over a single NFT canister at any given time, but it may be reconfigured arbitrarily
+- It must be impossible to mount an NFT with a lock on it, save by the owner of the lock
+- Records of purchase against the allow list should be original with changing the state of the allow list, e.g. altering the allow list in the middle of a private sale
+- 
 
 ## Bounty
 
